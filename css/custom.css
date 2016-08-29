@@ -1,0 +1,43 @@
+body{
+	/*background-color: #80CBC4;*/
+	background: url('../images/qutub_bg.jpg') center center fixed no-repeat;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.slogan{
+	font-family: 'Sacramento', cursive;
+	font-size: 3em;
+	text-align: center;
+	margin:20px;
+	color: white;
+	text-shadow: 2px 2px black;
+}
+
+.search{
+	background-color: white;
+	padding:20px auto 40px;
+	border-radius: 2px;
+	height: 80px;
+	width: 90%;
+}
+
+.center-card{
+	float: none;
+	margin: 20px auto;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.slogan{
+		font-size: 5em;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
